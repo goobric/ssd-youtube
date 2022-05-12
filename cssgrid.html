@@ -7,6 +7,36 @@
   <title>CSS Grid Practice</title>
 </head>
 <body>
+  <!-- outer Container -->
+  <div style="
+    display: grid;
+    grid-template-columns: 100px 100px;">
+    <div style="background-color: lightblue;">Div 1</div>
+    <div style="background-color: lightpink;">Div 2<p>This is extra text</p></div>
+  </div>
+  <div style="
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 100px 100px 200px;">
+    <div style="background-color: lightblue;">Div 3</div>
+    <div style="background-color: lightpink;">Div 4<p>This is extra text</p></div>
+    <div style="background-color: lightgreen;">Div 5</div>
+  </div>
+  <div style="
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 100px 1fr;">
+    <div style="background-color: rgb(235, 235, 149);">Div 6</div>
+    <div style="background-color: lightslategray;">1fr Free-Space</div>
+  </div>
+  <div style="
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 100px 1fr 2fr;">
+    <div style="background-color: rgb(235, 235, 149);">Div 6</div>
+    <div style="background-color: lightslategray;">1fr Free-Space</div>
+    <div style="background-color: rgb(75, 108, 141);">2fr ratio of Free-Space</div>
+  </div>
   
 </body>
 </html>
