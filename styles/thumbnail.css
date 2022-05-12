@@ -17,7 +17,7 @@
 
 /* === Video Elements === */
 .video-title {
-  width: 300px;
+  margin-top: 0;
 }
 .video-author {
   display: block;
@@ -33,4 +33,16 @@
   border-width: 1px;
   border-style: solid;
   border-color: red;
+}
+.channel-profile-pic {
+  display: inline-block;
+  width: 50px;
+  vertical-align: top;
+}
+.video-info {
+  display: inline-block;
+  width: 200px;
+}
+.profile-pic {
+  width: 100%;
 }
