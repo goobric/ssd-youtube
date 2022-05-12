@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CSS Grid Practice</title>
 </head>
-<body>
+<body style="padding-bottom: 500px;">
   <!-- outer Container -->
   <div style="
     display: grid;
@@ -37,6 +37,18 @@
     <div style="background-color: lightslategray;">1fr Free-Space</div>
     <div style="background-color: rgb(75, 108, 141);">2fr ratio of Free-Space</div>
   </div>
-  
+  <div style="
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;">
+    <div style="background-color: rgb(101, 173, 101); height: 200px;">1fr</div>
+    <div style="background-color: rgb(83, 84, 145); height: 200px">1fr Free-Space</div>
+    <div style="background-color: rgb(141, 75, 97); height: 200px">1fr ratio of Free-Space</div>
+    <div style="background-color: rgb(141, 75, 97); height: 200px">1fr ratio of Free-Space</div>
+    <div style="background-color: rgb(101, 173, 101); height: 200px;">1fr</div>
+    <div style="background-color: rgb(83, 84, 145); height: 200px">1fr Free-Space</div>
+  </div>
 </body>
 </html>
