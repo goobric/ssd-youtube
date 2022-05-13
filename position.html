@@ -18,10 +18,12 @@
     right: 0;
     left: 0;
     height: 50px;
+    z-index: 1;
     ">
     header
   </div>
 
+  <!-- Fixed Position is linked to Browser Window -->
   <div style="
     background-color: rgb(9, 126, 9);
     color: white;
@@ -29,8 +31,28 @@
     top: 50px;
     bottom: 0;
     left: 0;
-    width: 72px;">
+    width: 76px;">
     sidebar
+    <!-- Absolute Position places items in corners of elements -->
+    <div style="
+    position: absolute;
+    background-color: red;
+    color: white;
+    top: 0;
+    right: 0;">
+    X
+  </div>
+  </div>
+
+  <!-- Absolute Position is linked to Page -->
+  <div style="
+    position: absolute;
+    background-color: red;
+    color: white;
+    top: 60px;
+    right: 5px;
+    z-index: 0;">
+    Absolute
   </div>
 
   <div style="
@@ -43,7 +65,8 @@
   <div style="
     background-color: lightpink;
     height: 200px;
-    width: 200px;">
+    width: 200px;
+    position: relative;">
     Div 2
   </div>
   
