@@ -1,9 +1,5 @@
 /*=== Paragraph Font === */
-p {
-  font-family: Roboto, Arial;
-  margin-top: 0;
-  margin-bottom: 0;
-}
+
 
 .thumbnail {
   width: 100%;
@@ -16,11 +12,7 @@ p {
   border-color: red; */
 }
 
-.search-bar {
-  font-size: 20px;
-  margin-left: 0;
-  display: block;
-}
+
 
 /* === Video Elements === */
 .video-grid {
