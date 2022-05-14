@@ -23,9 +23,9 @@
 .left-section {
   display: flex;
   align-items: center;
-  border-width: 1px;
+  /*border-width: 1px;
   border-style: solid;
-  border-color: red; 
+  border-color: red;*/ 
 }
 .hamburger-menu {
   height: 24px;
@@ -43,9 +43,9 @@
   max-width: 500px;
   display: flex;
   align-items: center;
-  border-width: 1px;
+  /*border-width: 1px;
   border-style: solid;
-  border-color: red; 
+  border-color: red;*/ 
 }
 .search-bar {
   flex: 1;
@@ -97,9 +97,9 @@
   align-items: center;
   justify-content: space-between;
   flex-shrink: 0;
-  border-width: 1px;
+  /*border-width: 1px;
   border-style: solid;
-  border-color: red; 
+  border-color: red;*/ 
 }
 .upload-icon {
   height: 24px;
