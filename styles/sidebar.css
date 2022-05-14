@@ -6,3 +6,12 @@
   background-color: white;
   width: 72px;
 }
+
+.sidebar-link {
+  background-color: lightgray;
+  height: 76px;
+  /*margin-bottom: 1px;*/
+}
+.sidebar-link:hover {
+  background-color: rgb(235, 235, 235);
+}
