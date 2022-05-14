@@ -9,6 +9,10 @@
   border-style: solid;
   border-color: red; */
 }
+.thumbnail-row {
+  margin-bottom: 12px;
+  position: relative;
+}
 
 /* === Video Elements === */
 .video-grid {
@@ -48,6 +52,21 @@
   display: grid;
   grid-template-columns: 50px 1fr;
 }
+.video-time {
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  font-weight: 500;
+  padding-top: 4px;
+  padding-right: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  border-radius: 2px;
+  background-color: #000;
+  color: #fff;
+  position: absolute;
+  right: 5px;
+  bottom: 8px;
+}
 .channel-profile-pic {
   /*display: inline-block;
   width: 50px;
@@ -62,7 +81,4 @@
 .profile-pic {
   width: 40px;
   border-radius: 50px;
-}
-.thumbnail-row {
-  margin-bottom: 12px;
 }
