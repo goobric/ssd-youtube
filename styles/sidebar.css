@@ -4,13 +4,16 @@
   bottom: 0;
   left: 0;
   width: 72px;
+  z-index: 200;
+  padding-top: 5px;
 }
 
 .sidebar-link {
-  height: 76px;
+  height: 75px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   /*margin-bottom: 1px;*/
 }
 .sidebar-link:hover {
@@ -18,4 +21,9 @@
 }
 .sidebar-link img {
   height: 24px;
+  margin-bottom: 4px;
+}
+.sidebar-text {
+  font-family: Roboto, Arial;
+  font-size: 10px;
 }
