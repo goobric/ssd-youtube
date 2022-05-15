@@ -6,49 +6,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CSS Grid Practice</title>
 </head>
-<body style="padding-bottom: 500px;">
+<body>
   <!-- outer Container -->
-  <div style="
-    display: grid;
-    grid-template-columns: 100px 100px;">
-    <div style="background-color: lightblue;">Div 1</div>
-    <div style="background-color: lightpink;">Div 2<p>This is extra text</p></div>
+  <div class="grid-temp-col-1">
+    <div class="blue-container">Div 1</div>
+    <div class="pink-container">Div 2<p>This is extra text</p></div>
   </div>
-  <div style="
-    margin-top: 30px;
-    display: grid;
-    grid-template-columns: 100px 100px 200px;">
-    <div style="background-color: lightblue;">Div 3</div>
-    <div style="background-color: lightpink;">Div 4<p>This is extra text</p></div>
-    <div style="background-color: lightgreen;">Div 5</div>
+  <div class="grid-templ-col-2">
+    <div class="blue-container">Div 3</div>
+    <div class="pink-container">Div 4<p>This is extra text</p></div>
+    <div class="green-container">Div 5</div>
   </div>
-  <div style="
-    margin-top: 30px;
-    display: grid;
-    grid-template-columns: 100px 1fr;">
-    <div style="background-color: rgb(235, 235, 149);">Div 6</div>
-    <div style="background-color: lightslategray;">1fr Free-Space</div>
+  <div class="grid-temp-col-3">
+    <div class="yellow-container">Div 6</div>
+    <div class="gray-container">1fr Free-Space</div>
   </div>
-  <div style="
-    margin-top: 30px;
-    display: grid;
-    grid-template-columns: 100px 1fr 2fr;">
-    <div style="background-color: rgb(235, 235, 149);">Div 6</div>
-    <div style="background-color: lightslategray;">1fr Free-Space</div>
-    <div style="background-color: rgb(75, 108, 141);">2fr ratio of Free-Space</div>
+  <div class="grid-temp-col-4">
+    <div class="yellow-container">Div 6</div>
+    <div class="gray-container">1fr Free-Space</div>
+    <div class="purple-container">2fr ratio of Free-Space</div>
   </div>
-  <div style="
-    margin-top: 30px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 20px;
-    row-gap: 40px;">
-    <div style="background-color: rgb(101, 173, 101); height: 200px;">1fr</div>
-    <div style="background-color: rgb(83, 84, 145); height: 200px">1fr Free-Space</div>
-    <div style="background-color: rgb(141, 75, 97); height: 200px">1fr ratio of Free-Space</div>
-    <div style="background-color: rgb(141, 75, 97); height: 200px">1fr ratio of Free-Space</div>
-    <div style="background-color: rgb(101, 173, 101); height: 200px;">1fr</div>
-    <div style="background-color: rgb(83, 84, 145); height: 200px">1fr Free-Space</div>
+  <div class="grid-temp-col-5">
+    <div class="green-container2">1fr</div>
+    <div class="purple-container2">1fr Free-Space</div>
+    <div class="blue-container2">1fr ratio of Free-Space</div>
+    <div class="pink-container2">1fr ratio of Free-Space</div>
+    <div class="yellow-container2">1fr</div>
+    <div class="gray-container2">1fr Free-Space</div>
   </div>
 </body>
 </html>
