@@ -17,7 +17,7 @@ body {
   display: flex;
   flex-direction: row;
 }
-.width100px {
+.width100px-1 {
   background-color: lightblue;
   width: 100px;
 }
@@ -29,6 +29,11 @@ body {
   background-color: rgb(88, 141, 88);
   width: 100px;
 }
+.width100px-3 {
+  background-color: lightpink;
+  width: 100px;
+}
+
 .displayflex2 {
   background-color: lightblue;
   flex: 2;
@@ -55,6 +60,29 @@ body {
   background-color: lightblue;
   width: 150px;
 }
+.flex-space-between {
+  margin-top: 30px;
+  height: 70px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.f-sp-btw-aligncenter {
+  margin-top: 30px;
+  height: 70px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: red;
+  display: flex;
+  flex-direction: row;
+  /*justify-content: space-between;*/
+  align-items: center;
+}
+
 
 
 
