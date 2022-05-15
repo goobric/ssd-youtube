@@ -4,3 +4,53 @@ body {
   padding-top: 60px;
   padding-left: 80px;
 }
+
+.header {
+  background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+    z-index: 1;
+}
+
+.sidebar-fixed {
+  background-color: rgb(9, 126, 9);
+    color: white;
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    width: 76px;
+}
+.sidebar-absolute {
+  position: absolute;
+    background-color: red;
+    color: white;
+    top: 0;
+    right: 0;
+}
+
+.page-absolute {
+  position: absolute;
+    background-color: red;
+    color: white;
+    top: 60px;
+    right: 5px;
+    z-index: 0;
+}
+
+.position-static {
+  background-color: lightblue;
+     height: 200px;
+     width: 200px;
+     position: static;
+}
+.position-relative {
+  background-color: lightpink;
+    height: 200px;
+    width: 200px;
+    position: relative;
+}

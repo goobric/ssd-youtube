@@ -4,78 +4,36 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/position.css">
   <title>CSS Positioning Practice</title>
 </head>
-<body style="
-  height: 3000px;
-  padding-top: 60px;
-  padding-left: 80px;">
-  <div style="
-    background-color: black;
-    color: white;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    height: 50px;
-    z-index: 1;
-    ">
+<body>
+  <div class="header">
     header
   </div>
 
   <!-- Fixed Position is linked to Browser Window -->
-  <div style="
-    background-color: rgb(9, 126, 9);
-    color: white;
-    position: fixed;
-    top: 50px;
-    bottom: 0;
-    left: 0;
-    width: 76px;">
+  <div class="sidebar-fixed">
     sidebar
     <!-- Absolute Position places items in corners of elements -->
-    <div style="
-    position: absolute;
-    background-color: red;
-    color: white;
-    top: 0;
-    right: 0;">
+    <div class="sidebar-absolute">
     X
   </div>
   </div>
 
   <!-- Absolute Position is linked to Page -->
-  <div style="
-    position: absolute;
-    background-color: red;
-    color: white;
-    top: 60px;
-    right: 5px;
-    z-index: 0;">
+  <div class="page-absolute">
     Absolute
   </div>
 
-  <div style="
-     background-color: lightblue;
-     height: 200px;
-     width: 200px;
-     position: static;">
+  <div class="position-static">
     Div 1
   </div>
-  <div style="
-    background-color: lightpink;
-    height: 200px;
-    width: 200px;
-    position: relative;">
+  <div class="position-relative" style="
+    ">
     Div 2
-    <div style="
-      position: absolute;
-      background-color: red;
-      color: white;
-      right: 10px;
-      bottom: 10px;
-      z-index: 0;">
-      5:00
+    <div class="position-absolute">
+      
     </div>
   </div>
   
